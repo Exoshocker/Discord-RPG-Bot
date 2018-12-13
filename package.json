@@ -1,8 +1,0 @@
-{
-	"name": "Discord-RPG-Bot",
-	"verson": "1.0.0",
-	"description": "A RPG Discord Bot",
-	"main": "source.js",
-	"author": "Exoshocker",
-	"dependencies": {}
-}
