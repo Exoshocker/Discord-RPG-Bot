@@ -44,7 +44,7 @@
      message.channel.send('You knock on the door of the hut. A gnome answers the door. The gnome hands you a potion, and slams the door. To keep walking, type !keeponwalking')
    } else if (message.content === '!keeponwalking') {
      message.channel.send('You keep walking. You see a mountain in the distance. Suddenly, a man with the strange hat appears in front of you. "I challenge you to a duel, on the top of Mount Death." The man disappears. To climb the mountain, type !climbmountain. ');
-   } else if (message.content === 'climbmountain') {
+   } else if (message.content === '!climbmountain') {
      message.channel.send('You climb the mountain. When you arrive at the top you see the man standing in a maniacal manner. To attack the man, type !fight. To jump off the mountain, type !jump.');
    } else if (message.content === '!walkpast') {
      message.channel.send('You walk past the hut. You see a mountain in the distance. Suddenly, a man with the strange hat appears in front of you. "I challenge you to a duel, on the top of Mount Death." The man disappears. To climb the mountain, type !climb. ');
