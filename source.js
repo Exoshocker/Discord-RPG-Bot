@@ -49,7 +49,7 @@
    } else if (message.content === '!walkpast') {
      message.channel.send('You walk past the hut. You see a mountain in the distance. Suddenly, a man with the strange hat appears in front of you. "I challenge you to a duel, on the top of Mount Death." The man disappears. To climb the mountain, type !climb. ');
    } else if (message.content === '!fight') {
-     message.content.send('You swing your golden sword at the man. You miss. He swings back, and almost kills you. You notice the potion in your bag, and drink it. Suddenly, you feel powerful. You swing at the man and he dies instantly. Congradulations, you won this shitty game. To uninstall this bot, right click on its icon and click "Kick Discord RPG"');
+     message.channel.send('You swing your golden sword at the man. You miss. He swings back, and almost kills you. You notice the potion in your bag, and drink it. Suddenly, you feel powerful. You swing at the man and he dies instantly. Congradulations, you won this shitty game. To uninstall this bot, right click on its icon and click "Kick Discord RPG"');
    } else if (message.content === '!climb') {
      message.channel.send('You climb the mountain. When you arrive at the top you see the man standing in a maniacal manner. To attack the man, type !attackman. To jump off the mountain, type !jump.');
    } else if (message.content === '!attackman') {
